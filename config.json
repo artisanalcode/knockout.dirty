@@ -1,0 +1,15 @@
+{
+    "src_dir": "src",
+    "dis_dir": "dist",
+    "tst_dir": "tests",
+    "connect": {
+        "url": "http://localhost:8080"
+        },
+    "pkg": {
+        "name" : "knockout.dirty"
+        },
+    "umd": {
+        "dir" : "../../../../../<%= cfg.src_dir %>",
+        "src" : "umd.hbs"
+        }
+}

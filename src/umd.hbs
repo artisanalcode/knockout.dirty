@@ -1,0 +1,22 @@
+(function(factory) {
+    {{! Three loading modules scenarions }}
+    // CommonJS/Node
+    if (typeof require === "function" && typeof exports === "object" && typeof module === "object") {
+        factory({{#if cjsDependencies.wrapped}}{{{cjsDependencies.wrapped}}}, {{/if}} exports);
+    }
+    // AMD module
+    else if (typeof define === "function" && define["amd"]) {
+        {{! Use exports to create an empty object immediatly available for reference by other modules }}
+        define({{#if amdModuleId}}"{{amdModuleId}}", {{/if}}[{{#if amdDependencies}}{{{amdDependencies.wrapped}}}, {{/if}}"exports"], factory);
+    }
+    // No module loader
+    else {
+        factory({{#if globalDependencies}}{{globalDependencies.normal}},{{/if}}{{{globalAlias}}});
+    }
+}(function({{#if dependencies}}{{dependencies}},{{/if}} exports) {
+    {{! Code }}
+    {{{code}}}
+
+    {{! Use exports to create an empty object immediatly available for reference by other modules }}
+    return {{#if objectToExport}}{{objectToExport}}{{else}}exports{{/if}};
+}));

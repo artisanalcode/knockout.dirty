@@ -1,0 +1,34 @@
+{
+  "name": "knockout-dirty",
+  "version": "1.0.0",
+  "description": "A KnockoutJS plugin change tracking (dirty flag).",
+  "main": "dist/knockout.dirty.min.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "test",
+    "Gruntfile.js",
+    "config.json"
+  ],
+  "keywords": [
+    "knockout",
+    "ko",
+    "dirty",
+    "flag",
+    "change",
+    "tracking"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:soleilnoirmedia/knockout.dirty.git"
+  },
+  "dependencies": {
+    "knockout": ">=3.1.0"
+  },
+  "devDependencies": {
+    "qunit": "~1.18.0"
+  }
+}
