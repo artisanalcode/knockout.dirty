@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.org/soleilnoirmedia/knockout.dirty.svg)](https://travis-ci.org/soleilnoirmedia/knockout.dirty)
 
-Knockout DirtyFlag
-==================
+Knockout Dirty
+==============
 ----------
-Knockout.dirtyFlag is a change tracker (dirty flag) for Knockout view models (and view models' properties). When the value of an observable changes the "flag" is set to "dirty".
+Knockout Dirty is a change tracker (dirty flag) for Knockout view models (and view models' properties). When the value of an observable changes the "flag" is set to "dirty".
 
 The plugin is heavily inspired by the examples and plugins provided by John Papa, Ryan Niemeyer and others. So what is different? It integrates methods to restore your view model (or tracked properties) to is "clean" state.  Additionally the plugin is fully unit tested, and thoroughly commented.
 
