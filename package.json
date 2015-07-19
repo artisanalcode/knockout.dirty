@@ -1,6 +1,6 @@
 {
   "name": "Knockout.dirty",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Change tracking for Knockout view models.",
   "author": {
     "name": "Juan M. Garcia"
