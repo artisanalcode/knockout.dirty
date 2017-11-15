@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/soleilnoirmedia/knockout.dirty.svg)](https://travis-ci.org/soleilnoirmedia/knockout.dirty)
+[![Build Status](https://travis-ci.org/soleilnoirmedia/knockout.dirty.svg)](https://travis-ci.org/artisanalcode/knockout.dirty)
 
 Knockout Dirty
 ==============
